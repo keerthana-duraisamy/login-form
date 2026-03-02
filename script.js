@@ -31,7 +31,7 @@ const advancedValidation=(email,pass)=>{
         console.log("Valid password");
     }
     else{
-        err.textContent="Invalid password"
+        passerr.textContent="Invalid password"
         console.log("Invalid password");
     }
 
